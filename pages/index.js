@@ -5,7 +5,7 @@ import NavigationLink from "../components/NavigationLink";
 export default function Home() {
     return (
         <div className="bg-gray-50 selection:bg-green-500">
-            <nav className="py-2.5 px-14 flex flex-row items-center justify-between">
+            <nav className="sticky top-0 z-50 py-2.5 px-14 flex flex-row items-center justify-between bg-white shadow">
                 <div className="flex flex-row items-center">
                     <Image src={"/logo.png"} height={48} width={48} />
                     <div className="ml-20 space-x-10">
@@ -19,10 +19,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-row items-center">
                     <p className="tracking-wide font-medium">+216 00 000 000</p>
-                    <button
-                        className="ml-12 bg-blue-600 opacity-90 rounded-full h-9 w-20 flex items-center justify-center font-medium tracking-wide text-white text-opacity-95 pb-0.5 hover:shadow-md transition">
-                        Login
-                    </button>
+                    <button className="ml-12 bg-blue-600 opacity-90 rounded-full h-9 w-20 flex items-center justify-center font-medium tracking-wide text-white text-opacity-95 pb-0.5 hover:shadow-md transition">Login</button>
                 </div>
             </nav>
 
@@ -30,12 +27,8 @@ export default function Home() {
                 <div className="w-full h-120 bg-lpm-hallway bg-center bg-fixed shadow-xl">
                     <div className="relative bg-black bg-opacity-40 w-full h-full">
                         <div className="absolute left-24 bottom-24">
-                            <h1 className="text-white text-opacity-95 text-5xl uppercase tracking-widest font-semibold">Lycée
-                                Pilote Monastir</h1>
-                            <p className="mt-8 text-white text-opacity-90 text-lg tracking-widest">A prestigious and
-                                innovative public secondary school<br />based in Tunisia, created on September 15,
-                                2004.
-                            </p>
+                            <h1 className="text-white text-opacity-95 text-5xl uppercase tracking-widest font-semibold">Lycée Pilote Monastir</h1>
+                            <p className="mt-8 text-white text-opacity-90 text-lg tracking-widest">A prestigious and innovative public secondary school<br />based in Tunisia, created on September 15, 2004.</p>
                         </div>
                     </div>
                 </div>
@@ -44,21 +37,9 @@ export default function Home() {
                     <div className="flex-1 flex justify-end">
                         <div className="max-w-2xl">
                             <h2 className="text-3xl font-bold tracking-wider opacity-70">Who Are We?</h2>
-                            <p className="mt-6 leading-8 font-medium opacity-70">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In finibus scelerisque
-                                lorem,
-                                ac semper augue posuere vel. Fusce lobortis, ligula ut vulputate euismod, velit
-                                purus
-                                pulvinar erat, sit amet congue magna justo eleifend nunc.
-                            </p>
+                            <p className="mt-6 leading-8 font-medium opacity-70">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In finibus scelerisque lorem, ac semper augue posuere vel. Fusce lobortis, ligula ut vulputate euismod, velit purus pulvinar erat, sit amet congue magna justo eleifend nunc.</p>
                             <h2 className="mt-20 text-3xl font-bold tracking-wider opacity-70">Our Mission!</h2>
-                            <p className="mt-6 leading-8 font-medium opacity-70">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In finibus scelerisque
-                                lorem,
-                                ac semper augue posuere vel. Fusce lobortis, ligula ut vulputate euismod, velit
-                                purus
-                                pulvinar erat, sit amet congue magna justo eleifend nunc.
-                            </p>
+                            <p className="mt-6 leading-8 font-medium opacity-70">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In finibus scelerisque lorem, ac semper augue posuere vel. Fusce lobortis, ligula ut vulputate euismod, velit purus pulvinar erat, sit amet congue magna justo eleifend nunc.</p>
                         </div>
                     </div>
 
@@ -70,14 +51,9 @@ export default function Home() {
                 <div className="flex mt-28 mx-36 px-12 py-6 bg-blue-700 bg-opacity-5 rounded-lg shadow">
                     <h4 className="text-9xl text-blue-700 opacity-60">“</h4>
                     <div>
-                        <h3 className="mx-12 mt-6 leading-9 text-center text-xl opacity-80 font-medium">Lorem ipsum
-                            dolor sit amet,
-                            consectetur adipiscing elit. In finibus scelerisque lorem, ac semper augue posuere vel.
-                            Fusce lobortis, ligula ut vulputate euismod, velit purus pulvinar erat.</h3>
-                        <h5 className="mt-6 text-center font-medium tracking-wide opacity-75">Lorem Ipsum <span
-                            className="text-blue-700 font-semibold">|</span> Manager</h5>
+                        <h3 className="mx-12 mt-6 leading-9 text-center text-xl opacity-80 font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In finibus scelerisque lorem, ac semper augue posuere vel. Fusce lobortis, ligula ut vulputate euismod, velit purus pulvinar erat.</h3>
+                        <h5 className="mt-6 text-center font-medium tracking-wide opacity-75">Lorem Ipsum <span className="text-blue-700 font-semibold">|</span> Manager</h5>
                     </div>
-
                 </div>
 
                 <div className="mt-28 mx-auto flex justify-between max-w-7xl px-20">
@@ -107,8 +83,7 @@ export default function Home() {
             <div className="w-full pt-8" >
                 <div className="flex items-baseline mx-12 space-x-16">
                     <div className="w-80">
-                        <h3 className="text-2xl text-black opacity-90 font-semibold tracking-wider">Lycée Pilote
-                            Monastir</h3>
+                        <h3 className="text-2xl text-black opacity-90 font-semibold tracking-wider">Lycée Pilote Monastir</h3>
                     </div>
                     <div className="flex-1 flex space-x-6">
                         <div className="flex-1">
@@ -127,32 +102,20 @@ export default function Home() {
                 </div>
                 <div className="mt-2 flex items-start mx-12 space-x-16">
                     <div className="w-80">
-                        <p className="text-black opacity-80 font-medium tracking-wide">
-                            A prestigious and
-                            innovative public secondary school based in Tunisia, created on September 15,
-                            2004.
-                        </p>
+                        <p className="text-black opacity-80 font-medium tracking-wide">A prestigious and innovative public secondary school based in Tunisia, created on September 15, 2004.</p>
                     </div>
                     <div className="flex-1 flex space-x-6">
                         <div className="flex-1">
-                            <Link href="/">
-                                <a className="text-black text-opacity-75 font-semibold tracking-wide">Home</a>
-                            </Link>
+                            <Link href="/"><a className="text-black text-opacity-75 font-semibold tracking-wide">Home</a></Link>
                         </div>
                         <div className="flex-1">
-                            <Link href="/contact">
-                                <a className="text-black text-opacity-75 font-semibold tracking-wide">Contact</a>
-                            </Link>
+                            <Link href="/contact"><a className="text-black text-opacity-75 font-semibold tracking-wide">Contact</a></Link>
                         </div>
                         <div className="flex-1">
-                            <Link href="http://www.education.gov.tn/?lang=en">
-                                <a className="text-black text-opacity-75 font-semibold tracking-wide">Ministry</a>
-                            </Link>
+                            <Link href="http://www.education.gov.tn/?lang=en"><a className="text-black text-opacity-75 font-semibold tracking-wide">Ministry</a></Link>
                         </div>
                         <div className="flex-1">
-                            <Link href="/">
-                                <a className="text-black text-opacity-75 font-semibold tracking-wide">Avenue Taieb M'hiri 5000 Monastir / Tunisia</a>
-                            </Link>
+                            <Link href="https://maps.app.goo.gl/LugFu2UEm3sCPq4E8"><a className="text-black text-opacity-75 font-semibold tracking-wide">Avenue Taieb M'hiri 5000 Monastir / Tunisia</a></Link>
                         </div>
                     </div>
                 </div>

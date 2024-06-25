@@ -1,14 +1,9 @@
-import Head from "next/head";
 import Navbar from "../components/Navbar";
 import { Button, TextField, Typography } from "@mui/material";
 
 export default function Contact() {
     return (
         <div>
-            <Head>
-                <title>Contact - LPM</title>
-            </Head>
-
             <Navbar selected="contact" />
 
             <div className="mx-auto flex flex-col justify-center">
